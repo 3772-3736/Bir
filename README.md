@@ -1,1 +1,1 @@
-# site
+# Bir site için giriş ve çıkış kayıtlarını veri tabanına kaydeden, hangi dairede kimin oturduğunu gösteren HTML be PHP kodları
