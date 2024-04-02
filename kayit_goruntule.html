@@ -1,0 +1,64 @@
+<html>
+<head>
+<style>
+	div{
+	background-color:rgb(225, 228, 234);
+	margin:100px 630px 90px 550px ;
+	
+	padding-top:25px;
+	padding-bottom:20px;
+	border:2px solid blue;
+    border-radius:20px;
+	}	
+	
+	h1{
+	text-align:center;
+	font-size:30px;
+	}
+	
+	a{
+	text-decoration:none;
+	font-size:18px;
+	}
+	
+	.buton{
+	padding:7px 20px 7px 20px;
+	border:2px solid rgb(225, 228, 234);
+	border-radius:20px;
+	color:black;
+	}
+	.buton:hover{
+	background-color:white;
+	color:black;
+	}
+	
+</style>
+</head>
+<body>
+<div>
+<h1>KAYIT<br>GORUNTULE</h1>
+<table border=0 cellpadding=7 cellspacing=4 align=center>
+<form action="kayit_goruntule.php" method="POST">
+<tr><td>Blok</td><td><select name="blok" value="">
+<option value="ablok">A Blok</option>
+<option value="bblok">B Blok</option>
+<option value="cblok">C Blok</option>
+<option value="dblok">D Blok</option>
+</select></td></tr>
+<tr><td>Daire No</td><td><select name="daire_no" value="">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+</select></td></tr>
+<tr><td colspan=2 align=center><input type="submit" value="Goruntule"></td></tr>
+<tr><td colspan=2 align=center><a class="buton" href="tumkayit.php">Tum Kaydi Goruntule</a></td></tr>
+<tr><td colspan=2 align=center><a class="buton" href="anasayfa.html">ANASAYFA</a></td></tr></table>
+</form></div>
+</body></html>
